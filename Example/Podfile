@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GPPrivateModule_Example' do
+  pod 'GPPrivateModule', :path => '../'
+
+  target 'GPPrivateModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
